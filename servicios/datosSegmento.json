@@ -1,0 +1,25 @@
+{
+  "datosSegmento": {
+    "respuesta": [
+      {
+        "GRP_CODIGO": "grpctl_01",
+        "GRP_NOMBRE": "BOTILLERÍAS",
+        "GRP_DESCRIPCION": "VENTA DE BEBIDAS ALCOHÓLICAS Y NO ALCOHÓLICAS EN COMERCIOS ESPECIALIZADOS",
+        "GRP_DATE_CREADO": "19/04/2022 09:20:13",
+        "GRP_USER_CREADO": "s14325174",
+        "GRP_DATE_MODIFICADO": "19/04/2022 09:22:19",
+        "GRP_USER_MODIFICADO": "s14325174",
+        "GRP_VERSION": 1.01,
+        "GRP_AREA_NEGOCIO": "ÁREA DE RIESGOS ESPECÍFICOS IVA",
+        "GRP_VIGENCIA_INICIO": null,
+        "GRP_VIGENCIA_FIN": null,
+        "GRP_ESQUEMA_VALIDO": "",
+        "GRP_ESTADO": 1,
+        "PROC_DATE_PROCESO": "               .",
+        "PROC_CANT_REGISTROS": null,
+        "GRP_PERIOCIDAD": "Semanal",
+        "GRP_HABILITADO": "Deshabilitado"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "listGrpCodigo": {
+        "respuesta": [
+            {
+                "GRP_CODIGO": "grpctl_01"
+            },
+            {
+                "GRP_CODIGO": "grpctl_b"
+            },
+            {
+                "GRP_CODIGO": "test01"
+            },
+            {
+                "GRP_CODIGO": "test025"
+            },
+            {
+                "GRP_CODIGO": "test05"
+            },
+            {
+                "GRP_CODIGO": "test07"
+            },
+            {
+                "GRP_CODIGO": "test_01"
+            }
+        ]
+    }
+}

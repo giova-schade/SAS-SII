@@ -1,0 +1,25 @@
+{
+    "updateSegmento": {
+        "respuesta": [
+            {
+                "GRP_CODIGO": "test05",
+                "GRP_NOMBRE": "test05test05",
+                "GRP_DESCRIPCION": "test05",
+                "GRP_HABILITADO": 1,
+                "GRP_DATE_CREADO": " 11MAR2022:11:10:35.744725",
+                "GRP_USER_CREADO": "gschade.externo",
+                "GRP_DATE_MODIFICADO": " 11MAR2022:16:55:27.700000",
+                "GRP_USER_MODIFICADO": "gschade.externo",
+                "GRP_VERSION": 1,
+                "GRP_PERIOCIDAD": 1,
+                "GRP_AREA_NEGOCIO": "test05",
+                "GRP_VIGENCIA_INICIO": "10-03-2022:00:00:00",
+                "GRP_VIGENCIA_FIN": "11-03-2022:00:00:00",
+                "GRP_ESQUEMA_VALIDO": "{\"type\":\"struct\",\"fields\":[{\"name\":\"rut\",\"type\":\"long\",\"nullable\":false,\"metadata\":{}},{\"name\":\"dv\",\"type\":\"string\",\"nullable\":false,\"metadata\":{}},{\"name\":\"email\",\"type\":\"string\",\"nullable\":false,\"metadata\":{}},{\"name\":\"fecha\",\"type\":\"timestamp\",\"nullable\":false,\"metadata\":{}},{\"name\":\"segmento\",\"type\":\"string\",\"nullable\":false,\"metadata\":{}},{\"name\":\"parametros\",\"type\":{\"type\":\"array\",\"elementType\":{\"type\":\"struct\",\"fields\":[{\"name\":\"DR\",\"type\":\"long\",\"nullable\":false,\"metadata\":{}},{\"name\":\"tamanio\",\"type\":\"string\",\"nullable\":false,\"metadata\":{}},{\"name\":\"inferior_hora_inicio\",\"type\":\"timestamp\",\"nullable\":false,\"metadata\":{}},{\"name\":\"inferior_hora_cierre\",\"type\":\"timestamp\",\"nullable\":false,\"metadata\":{}},{\"name\":\"superior_hora_inicio\",\"type\":\"timestamp\",\"nullable\":false,\"metadata\":{}},{\"name\":\"superior_hora_cierre\",\"type\":\"tim estamp\",\"nullable\":true,\"metadata\":{}},{\"name\":\"valor_defecto_1\",\"type\":\"string\",\"nullable\":false,\"metadata\":{}},{\"name\":\"valor_defecto_2\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}}}]}",
+                "GRP_ESTADO": 1,
+                "PROC_DATE_PROCESO": " .",
+                "PROC_CANT_REGISTROS": null
+            }
+        ]
+    }
+}

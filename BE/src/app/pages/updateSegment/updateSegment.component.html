@@ -1,0 +1,107 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-12">
+      <div class=" card">
+        <p-progressBar *ngIf="loadingPage" mode="indeterminate" [style]="{'height': '6px'}"></p-progressBar>
+            <p-blockUI [blocked]="loadingPage" [style]="{'z-index': '2'}"></p-blockUI>
+        <div class=" card-header">
+          <div class=" col-sm-8 text-left">
+            <h2 class=" card-category">Actualizar Segmento </h2>
+            
+          </div>
+
+          <form class="p-grid" [formGroup]="segmentoForm">
+            <div class=" row">
+              <div class=" col-md-5">
+                <div class=" form-group">
+                  <h6>Codigo segmento</h6>
+                  <span class="p-input-icon-right">
+                    <p-dropdown [options]="codigos" placeholder="Seleccione un codigo" optionLabel="name"
+                      [showClear]="true" formControlName="GRP_CODIGO"
+                      (onChange)="OnChange(segmentoForm.controls['GRP_CODIGO'].value)">
+                    </p-dropdown>
+                  </span>
+                </div>
+
+                <div class=" form-group" >
+                  <h6>periocidad</h6>
+
+                  <p-dropdown [options]="periocidad" placeholder="Seleccione una periocidad" optionLabel="name"
+                    [showClear]="true" formControlName="GRP_PERIOCIDAD">
+                  </p-dropdown>
+
+                </div>
+
+                <div class=" form-group">
+                  <h6>Nombre</h6>
+                  <span class="p-input-icon-right">
+                    <input type="text" pInputText placeholder="Nombre" formControlName="GRP_NOMBRE"  oninput="this.value = this.value.toUpperCase()"/>
+                  </span>
+                </div>
+
+                <div class=" form-group" >
+                  <h6>Descripción</h6>
+
+                  <span class="p-input-icon-right">
+                    <input type="text" pInputText placeholder="Descripción" formControlName="GRP_DESCRIPCION" oninput="this.value = this.value.toUpperCase()" />
+                  </span>
+                </div>
+
+                <div class=" form-group" >
+
+                  <h6>Habilitado</h6>
+
+                  <p-dropdown [options]="habilitado" placeholder="Habilitado" optionLabel="name" [showClear]="true"
+                    formControlName="GRP_HABILITADO">
+                  </p-dropdown>
+
+                </div>
+
+                <div class=" form-group"  >
+                  <h6>Área de negocio</h6>
+
+                  <span class="p-input-icon-right">
+                    <input type="text" pInputText placeholder="Área de negocio" formControlName="GRP_AREA_NEGOCIO" oninput="this.value = this.value.toUpperCase()" />
+                  </span>
+                </div>
+
+                <div class=" form-group" >
+                  <h6>Vigencia Inicio</h6>
+                  <p-calendar placeholder="Vigencia Inicio" [showIcon]="true" inputId="icon"
+                    formControlName="GRP_VIGENCIA_INICIO" dateFormat="dd-mm-yy">
+                  </p-calendar>
+                </div>
+                <div class=" form-group" >
+                  <h6>Vigencia Fin</h6>
+                  <p-calendar placeholder="vigencia Fin" [showIcon]="true" inputId="icon"
+                    formControlName="GRP_VIGENCIA_FIN" dateFormat="dd-mm-yy">
+                  </p-calendar>
+                </div>
+
+                <div class=" form-group" >
+                  <button pButton type="submit" label="Actualizar segmento"
+                    (click)="updateSegmento(segmentoForm.controls)"></button>
+                </div>
+              </div>
+
+              <div class=" col-md-7">
+                <div class=" form-group" >
+                  <textarea rows="5" cols="80" placeholder="Esquema valido { }" pInputTextarea
+                    formControlName="GRP_ESQUEMA_VALIDO"></textarea>
+                </div>
+                <div class=" form-group">
+                  <pre [innerHTML]="segmentoForm.controls['GRP_ESQUEMA_VALIDO'].value | prettyjson: [true, 3]"
+                    cols="80"></pre>
+
+                </div>
+
+              </div>
+            </div>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

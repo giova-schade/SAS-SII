@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkBE=self.webpackChunkBE||[]).push([[467],{3467:(d,s,o)=>{o.r(s),o.d(s,{AccessDeniedLayoutModule:()=>e});var a=o(4522),u=o(6019),c=o(7425),t=o(2383);let e=(()=>{class n{}return n.\u0275fac=function(_){return new(_||n)},n.\u0275mod=t.oAB({type:n}),n.\u0275inj=t.cJS({imports:[[u.ez,a.JF,c.IJ]]}),n})()}}]);

@@ -1,0 +1,10 @@
+json-server --watch -p 3001  Login.json 
+json-server --watch -p 3002 apiCreaSegmento.json 
+json-server --watch -p 3003 datosSegmento.json 
+json-server --watch -p 3004 listGrpCodigo.json 
+json-server --watch -p 3005 updateSegmento.json 
+json-server --watch -p 3006 listSegment.json
+json-server --watch -p 3007 removeSegmento.json
+json-server --watch -p 3008 logs.json
+json-server --watch -p 3009 run.json
+json-server --watch -p 3010 getEsquema.json

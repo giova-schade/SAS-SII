@@ -1,0 +1,57 @@
+{
+  "listSegment": {
+    "respuesta": [
+      {
+        "GRP_CODIGO": "TEST01",
+        "GRP_NOMBRE": "TEST01",
+        "GRP_DESCRIPCION": "TEST01",
+        "GRP_HABILITADO": 0,
+        "GRP_DATE_CREADO": "19/04/2022 12:22:12",
+        "GRP_USER_CREADO": "s14325174",
+        "GRP_DATE_MODIFICADO": "19/04/2022 12:22:12",
+        "GRP_USER_MODIFICADO": "s14325174",
+        "GRP_VERSION": 1,
+        "GRP_PERIOCIDAD": 0,
+        "GRP_AREA_NEGOCIO": "TEST01",
+        "GRP_VIGENCIA_INICIO": "19/04/2022",
+        "GRP_VIGENCIA_FIN": "19/04/2022",
+        "GRP_ESQUEMA_VALIDO": "",
+        "GRP_ESTADO": 1
+      },
+      {
+        "GRP_CODIGO": "GRPCRTL01",
+        "GRP_NOMBRE": "BOTILLERÍAS",
+        "GRP_DESCRIPCION": "VENTA DE BEBIDAS ALCOHÓLICAS Y NO ALCOHÓLICAS EN COMERCIOS ESPECIALIZADOS",
+        "GRP_HABILITADO": 0,
+        "GRP_DATE_CREADO": "19/04/2022 09:20:13",
+        "GRP_USER_CREADO": "s14325174",
+        "GRP_DATE_MODIFICADO": "19/04/2022 09:22:19",
+        "GRP_USER_MODIFICADO": "s14325174",
+        "GRP_VERSION": 1.01,
+        "GRP_PERIOCIDAD": 2,
+        "GRP_AREA_NEGOCIO": "ÁREA DE RIESGOS ESPECÍFICOS IVA",
+        "GRP_VIGENCIA_INICIO": null,
+        "GRP_VIGENCIA_FIN": null,
+        "GRP_ESQUEMA_VALIDO": "",
+        "GRP_ESTADO": 1
+      },
+      {
+        "GRP_CODIGO": "GRPCRTL00",
+        "GRP_NOMBRE": "OBLIGADOS",
+        "GRP_DESCRIPCION": "UNIVERSO DE CONTRIBUYENTES OBLIGADOS A ENTREGAR BOLETA ELECTRÓNICA",
+        "GRP_HABILITADO": 1,
+        "GRP_DATE_CREADO": "19/04/2022 08:37:47",
+        "GRP_USER_CREADO": "s14325174",
+        "GRP_DATE_MODIFICADO": "19/04/2022 09:16:41",
+        "GRP_USER_MODIFICADO": "s14325174",
+        "GRP_VERSION": 1.01,
+        "GRP_PERIOCIDAD": 1,
+        "GRP_AREA_NEGOCIO": "ÁREA DE RIESGOS ESPECÍFICOS IVA",
+        "GRP_VIGENCIA_INICIO": "01/03/2022",
+        "GRP_VIGENCIA_FIN": "31/12/2022",
+        "GRP_ESQUEMA_VALIDO": "",
+        "GRP_ESTADO": 1
+      }
+    ]
+  }
+}

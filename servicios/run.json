@@ -1,0 +1,14 @@
+{
+    "run": {
+        "respuesta": [
+            {
+                "LOG_UID": 1,
+                "GRP_CODIGO": "grpctl_a_s",
+                "LOG_EVENTO": "El codigo grpctl_a_sas no esta registrado en la tabla",
+                "LOG_DATETIME": " 16MAR2022:18:28:29.200000",
+                "LOG_USUARIO": "gschade.externo",
+                "LOG_TIPO_EVENTO": "007"
+            }
+        ]
+    }
+}

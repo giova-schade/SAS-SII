@@ -1,0 +1,375 @@
+{
+  "logs": { 
+    "respuesta": [
+      {
+        "LOG_UID": 346,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:11:52:22.600000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 347,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:11:53:23.400000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 354,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:15:33:40.300000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 355,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:15:34:50.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 356,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:15:42:59.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 357,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:15:59:15.500000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 361,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:00:22.100000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 377,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:52:01.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 379,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:52:10.100000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 338,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Estado Actualizado a Activado",
+        "LOG_DATETIME": "  19APR2022:09:16:10.400000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 339,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Periodo Actualizado, el codigo GRPCRTL00 no se encontró en la ruta diaria",
+        "LOG_DATETIME": "  19APR2022:09:16:41.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 341,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:09:21:52.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 342,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "Esquema actualizado versión &N_GRP_VERSION.",
+        "LOG_DATETIME": "  19APR2022:09:22:18.500000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 343,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "Periodo Actualizado, el codigo GRPCRTL01 no se encontró en la ruta semanal",
+        "LOG_DATETIME": "  19APR2022:09:22:18.600000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 349,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El codigo TEST01 ha sido Creado",
+        "LOG_DATETIME": "  19APR2022:12:22:11.700000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "002"
+      },
+      {
+        "LOG_UID": 363,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:21:18.700000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 364,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:21:57.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 366,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Estado Actualizado a Activado",
+        "LOG_DATETIME": "  19APR2022:16:32:21.200000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 367,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:33:39.700000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 378,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:52:05.500000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 340,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El codigo GRPCRTL01 ha sido Creado",
+        "LOG_DATETIME": "  19APR2022:09:20:12.600000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "002"
+      },
+      {
+        "LOG_UID": 353,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:15:07:33.400000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 365,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:32:09.700000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 368,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:34:55.500000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 335,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El codigo GRPCRTL00 ha sido Creado",
+        "LOG_DATETIME": "  19APR2022:08:37:47.300000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "002"
+      },
+      {
+        "LOG_UID": 350,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:14:41:43.800000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 351,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:14:42:08.100000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 352,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:14:48:40.400000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 358,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Periodo Actualizado, el codigo GRPCRTL00 no se encontró en la ruta semanal",
+        "LOG_DATETIME": "  19APR2022:15:59:27.700000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 359,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Estado Actualizado a Desactivado",
+        "LOG_DATETIME": "  19APR2022:15:59:27.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 360,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:15:59:43.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 369,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:44:32.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 372,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:44:47.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 373,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:44:54.800000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 374,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:44:59.100000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 375,
+        "GRP_CODIGO": "TEST01",
+        "LOG_EVENTO": "El código TEST01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:45:10.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 376,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:45:15.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 380,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  20APR2022:15:21:11.400000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 336,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:09:08:34.200000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 337,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Esquema actualizado versión &N_GRP_VERSION.",
+        "LOG_DATETIME": "  19APR2022:09:08:51.600000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 344,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:11:51:22.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 345,
+        "GRP_CODIGO": "GRPCRTL01",
+        "LOG_EVENTO": "El código GRPCRTL01 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:11:52:04.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 348,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:11:55:32.600000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 362,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "El código GRPCRTL00 ha sido consultado",
+        "LOG_DATETIME": "  19APR2022:16:04:00.400000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "001"
+      },
+      {
+        "LOG_UID": 370,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Estado Actualizado",
+        "LOG_DATETIME": "  19APR2022:16:44:40.900000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      },
+      {
+        "LOG_UID": 371,
+        "GRP_CODIGO": "GRPCRTL00",
+        "LOG_EVENTO": "Estado Actualizado a Desactivado",
+        "LOG_DATETIME": "  19APR2022:16:44:41.000000",
+        "LOG_USUARIO": "s14325174",
+        "LOG_TIPO_EVENTO": "004"
+      }
+    ]
+  }
+  
+}
