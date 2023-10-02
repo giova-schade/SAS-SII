@@ -65,8 +65,32 @@ export class runValidatorComponent implements OnInit {
       
       },
       error: (e) => {
-        this.notify.showNotification('top', 'right', 4, 'Error al obtener el registo de logs');
-        this.loadingPage=false;
+
+        this.master.getLogsError().subscribe({
+          next:(el:any) =>{
+            this.datasourceLogs = el.respuesta;
+            this.totalRecordsLogs = this.datasourceLogs.length;
+    
+            if (this.totalRecordsLogs) {
+              for (let campo in this.datasourceLogs[0]) {
+                this.LogsCampos.push({ field: campo, header: campo });
+                if (campo == 'LOG_DATETIME') {
+                  this.multiSortSegmento.push({ field: 'LOG_DATETIME', order: -1 });
+                }
+              }
+    
+            }
+            this.loading = false;
+            this.Logsview = true;
+            this.loadingPage=false;
+          },
+          error: (el) => {
+            this.notify.showNotification('top', 'right', 4, 'Error al obtener el registo de logs');
+            this.loadingPage=false;
+          }
+        })
+
+
 
 
       },

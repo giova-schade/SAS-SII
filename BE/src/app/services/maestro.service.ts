@@ -110,6 +110,9 @@ export class MaestrosService {
     getRun(): Observable<any> {
         return this.http.get(CONFIG.apiRun);
     }
+    getLogsError(): Observable<any> {
+        return this.http.get(CONFIG.apiVerLogsError);
+    }
     getEsquema(codigo: string): Observable<any> {
         var formData: any = new FormData();
         formData.append('GRP_CODIGO', codigo);

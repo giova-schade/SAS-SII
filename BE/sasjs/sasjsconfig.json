@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cli.sasjs.io/sasjsconfig-schema.json",
+  "macroFolders": [
+    "sasjs/macros"
+  ],
+  "programFolders": [],
+  "serviceConfig": {
+    "serviceFolders": [
+      "sasjs/services/common",
+      "sasjs/services/files"
+    ],
+    "initProgram": "sasjs/services/serviceinit.sas"
+  },
+  "defaultTarget": "sas9",
+  "targets": [
+    {
+      "name": "sas9",
+      "serverUrl": "https://sasanalytics.sii.cl:8343",
+      "serverType": "SAS9",
+      "appLoc": "/Boleta/migracion/sas9",
+      "serverName": "SASAppGuide",
+      "repositoryName": "Foundation"
+    }
+  ]
+}
