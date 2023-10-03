@@ -3,13 +3,21 @@
   "macroFolders": [
     "sasjs/macros"
   ],
-  "programFolders": [],
+  "programFolders": [
+    "sasjs/BESASGC"
+  ],
   "serviceConfig": {
     "serviceFolders": [
       "sasjs/services/common",
       "sasjs/services/files"
     ],
-    "initProgram": "sasjs/services/serviceinit.sas"
+    "initProgram": "sasjs/init.sas"
+  },
+  "jobConfig": {
+    "jobFolders": [
+      "sasjs/jobs/admin"
+    ],
+    "initProgram": "sasjs/init.sas"
   },
   "defaultTarget": "sas9",
   "targets": [
