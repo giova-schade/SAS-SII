@@ -1,6 +1,6 @@
 import { Component , OnInit} from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from './services/auth.services';
+import { AuthService, StartupData } from './services/auth.services';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 import { PrimeNGConfig } from 'primeng/api';
 import { Role } from './models/role';
@@ -32,6 +32,11 @@ export class AppComponent {
       }
 
     )
+
+    this.authService.getStartupData('common/appinit', null).then((startupData: StartupData) => {
+      console.log('startupData', startupData)
+      this.notify.showNotification('top', 'right', 2, JSON.stringify(startupData))
+    })
   }
   
 
