@@ -17,7 +17,7 @@
     "jobFolders": [
       "sasjs/jobs/admin"
     ],
-    "initProgram": "jobs/init.sas"
+    "initProgram": "sasjs/init.sas"
   },
   "defaultTarget": "sas9",
   "targets": [

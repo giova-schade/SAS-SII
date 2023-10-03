@@ -25,7 +25,6 @@
   %if %mf_existds(libds=&lib..&ds) %then %do;
     proc sql;
     drop table &lib..&ds;
-
   %end;
 
   proc append base=&lib..&ds data=work.&ds;

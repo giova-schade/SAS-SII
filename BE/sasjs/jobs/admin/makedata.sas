@@ -25,9 +25,9 @@
 %inc validagr /source2;
 
 /* delete the source dataset and append the WORK table in BESASGC */
-%be_rebuild_dataset(contrib)
-%be_rebuild_dataset(control)
-%be_rebuild_dataset(grupatr)
-%be_rebuild_dataset(grupcon)
-%be_rebuild_dataset(logevent)
-%be_rebuild_dataset(validagr)
+%be_rebuild_dataset(BE_CONTRIBUYENTE_SEGMENTO)
+%be_rebuild_dataset(BE_CONTROL_PROCESO)
+%be_rebuild_dataset(BE_GRUPO_ATRIBUTO)
+%be_rebuild_dataset(BE_GRUPO_CONTROL)
+%be_rebuild_dataset(BE_LOG_EVENTO)
+%be_rebuild_dataset(BE_VALIDA_GRUPO)
