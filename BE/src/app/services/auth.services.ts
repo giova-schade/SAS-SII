@@ -6,6 +6,7 @@ import { Observable } from 'rxjs';
 import { CONFIG } from '../../environments/global.component';
 import { MenuItem } from 'primeng/api';
 import { UrlSerializer } from '@angular/router';
+import SASjs, { SASjsConfig } from '@sasjs/adapter';
 
 
 
@@ -49,12 +50,26 @@ export const alllinks: MenuItem[] = [
     }
 ];
 export const links: MenuItem[] = []
+
+export interface Area {
+    AREA: string
+}
+export interface StartupData {
+    SYSDATE: string
+    SYSTIME: string
+    areas: Area[]
+    login: boolean
+    MF_GETUSER: string
+}
+
 @Injectable()
 
 export class AuthService {
     private user: User = new User;
-    constructor(private http: HttpClient) {
+    private adapter: SASjs
 
+    constructor(private http: HttpClient) {
+        this.adapter = new SASjs(window.sasjsConfigInput)
     }
     isAuthorized() {
         return !!this.user;
@@ -86,6 +101,32 @@ export class AuthService {
         return links;
     }
 
+    getStartupData(url: string, data?: any, config?: SASjsConfig): any {
+        // host and path (app loc) are automatically added
+        // by adapter based on configuration in the index.html
+        url = 'services/' + url
+
+        return new Promise((resolve, reject) => {
+            this.adapter
+            .request(url, data, config, () => {
+              //Needs log in in callback
+            })
+            .then(
+              (res: StartupData) => {
+                if (res.login === false) {
+                  //not logged in
+                }
+    
+                this.user.name = res.MF_GETUSER
+
+                resolve(res)
+              },
+              (err: any) => {
+                reject(err)
+              }
+            )
+        })
+    }
 
     getUser(): Observable<any> {
         return this.http.get(CONFIG.apiUrlLogin);
