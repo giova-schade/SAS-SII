@@ -40,13 +40,8 @@
       "serverUrl": "https://sasdesa.sii.cl:8343",
       "serverType": "SAS9",
       "appLoc": "/Boleta/migracion/sas9",
-      "serverName": "SASAppGuide",
-      "repositoryName": "SASAppEGRC",
-      "streamConfig": {
-        "streamWeb": true,
-        "streamWebFolder": "web",
-        "webSourcePath": "dist/BE"
-      }
+      "serverName": "SASAppEGRC",
+      "repositoryName": "Foundation"
     }
   ]
 }
