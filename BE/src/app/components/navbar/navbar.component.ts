@@ -1,4 +1,6 @@
 import { Component, OnInit, ElementRef, OnDestroy } from "@angular/core";
+import { SASjsConfig, SASjsRequest } from '@sasjs/adapter'
+
 import { ROUTES } from "../sidebar/sidebar.component";
 import { Location } from "@angular/common";
 import { Router } from "@angular/router";

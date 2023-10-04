@@ -12,7 +12,7 @@
 
 proc sql;
 create table areas as select distinct area
-  from mydb.springs;
+  from sashelp.springs;
 
 %webout(OPEN)
 %webout(OBJ,areas)

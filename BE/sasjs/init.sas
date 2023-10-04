@@ -9,9 +9,10 @@
 
 **/
 
-%let libloc=/tmp/besasgc;
+%let libloc=/sasdatad/apps/be/migracion;
 
 %mf_mkdir(&libloc)
 
 libname besasgc "&libloc";
+
 
