@@ -41,7 +41,12 @@
       "serverType": "SAS9",
       "appLoc": "/Boleta/migracion/sas9",
       "serverName": "SASAppGuide",
-      "repositoryName": "Foundation"
+      "repositoryName": "Foundation",
+      "streamConfig": {
+        "streamWeb": true,
+        "streamWebFolder": "web",
+        "webSourcePath": "dist/BE"
+      }
     }
   ]
 }
