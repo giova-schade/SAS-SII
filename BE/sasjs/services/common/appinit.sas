@@ -3,17 +3,14 @@
   @brief Initialisation service - runs on app startup
   @details  This is always the first service called when the app is opened.
 
-  The deployed code includes the `serviceinit.sas`, as defined in the
-  `sasjs/sasjsconfig.json` file.
-
   <h4> SAS Macros </h4>
+  @li mf_getuser.sas
+  @li mm_getgroups.sas
 
 **/
 
-proc sql;
-create table areas as select distinct area
-  from sashelp.springs;
+%mm_getgroups(user=%mf_getuser(),outds=work.groups)
 
 %webout(OPEN)
-%webout(OBJ,areas)
+%webout(OBJ,groups)
 %webout(CLOSE)

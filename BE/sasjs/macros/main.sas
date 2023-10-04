@@ -126,10 +126,6 @@
      %end;
     %SalidaWeb(Tabla=RESULT);
 %END;
-%ELSE %IF "&ACTION" EQ "Login" %THEN  %DO;
-    %get_meta_groups(_user=&p_user);
-    %get_user(_user="&_METAUSER",_tabla=&p_tabla,role_=&role_ );
-%END;
 %ELSE %IF "&ACTION" EQ "GetEsquema" %THEN  %DO;
     %IF %LENGTH(&GRP_CODIGO) NE 0 %THEN %DO;
       %let pwdpath = %sysfunc(pathname(work));
