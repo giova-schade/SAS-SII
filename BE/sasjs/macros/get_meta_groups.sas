@@ -9,7 +9,8 @@
 **/
 
 %macro get_meta_groups(_user=, outds=work.groups);
-  data &outds;
+%local role_;
+  data meta_groups;
     length uri name group groupuri desgroup grouptype $256;
     length id MDUpdate $20;
     n=1;
@@ -54,10 +55,18 @@
   run;
 
   data _null_;
-    set &outds;
-    /*Se excluye los Roles y BD Potsgres*/
-    if  group eq 'BEADM' then do;
-      putlog '---------------->' group;
-    end;
+    set meta_groups;
+
+    if  group eq 'BEADM' then
+        do;
+            /*Se excluye los Roles y BD Potsgres*/
+            call symput('role_' , group);
+        end;
   run;
+
+  data &outds;
+    role = "&role_";
+    Nombre = &_user;
+  run;
+
 %mend get_meta_groups;

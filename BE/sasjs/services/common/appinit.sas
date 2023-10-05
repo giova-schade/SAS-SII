@@ -9,7 +9,7 @@
 
 **/
 
-%get_meta_groups(_user=%mf_getuser(),outds=work.groups)
+%get_meta_groups(_user="%mf_getuser()",outds=work.groups)
 
 %webout(OPEN)
 %webout(OBJ,groups)
