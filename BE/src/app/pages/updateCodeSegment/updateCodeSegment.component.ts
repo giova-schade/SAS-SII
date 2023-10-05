@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { NotificationsComponent } from './../../pages/notifications/notifications.component';
 import { MaestrosService } from '../../services/maestro.service';
-import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms';
+import { FormControl, Validators, FormGroup, UntypedFormBuilder } from '@angular/forms';
 
 @Component({
   selector: "app-updateCodeSegment",
@@ -14,7 +14,7 @@ export class updateCodeSegmentComponent implements OnInit {
 
   constructor(
     private notify: NotificationsComponent,
-    private formBuilder: FormBuilder,
+    private formBuilder: UntypedFormBuilder,
     private master: MaestrosService
 
   ) { }

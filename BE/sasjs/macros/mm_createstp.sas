@@ -283,12 +283,12 @@ run;
     end;
 
     /* create meta obj */
-    rc15= METADATA_NEWOBJ('ClassifierMap',stpuri,"&stpname");
+    rc15= METADATA_NEWOBJ('ClassifierMap',stpuri,"&stpname");w
     rc16= METADATA_SETASSN(stpuri, 'Trees','MODIFY',treeuri);
     rc17= METADATA_SETASSN(stpuri, 'ComputeLocations','MODIFY',serveruri);
     rc18= METADATA_SETASSN(stpuri, 'SourceCode','MODIFY',fileuri);
     rc19= METADATA_SETASSN(stpuri, 'Prompts','MODIFY',prompturi);
-    rc20= METADATA_SETASSN(stpuri, 'Notes','MODIFY',texturi);
+    rc20= METADATA_SETASSN(stpuri, 'Notes','MODIFY',texturi); 
     rc21= METADATA_SETATTR(stpuri, 'PublicType', 'StoredProcess');
     rc22= METADATA_SETATTR(stpuri, 'TransformRole', 'StoredProcess');
     rc23= METADATA_SETATTR(stpuri, 'UsageVersion', '1000000');

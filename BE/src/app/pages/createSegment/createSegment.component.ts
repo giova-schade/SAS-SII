@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms';
+import { UntypedFormControl, Validators, UntypedFormGroup, UntypedFormBuilder } from '@angular/forms';
 import { NotificationsComponent } from './../../pages/notifications/notifications.component';
 import { MaestrosService } from '../../services/maestro.service';
 import { CONFIG } from '../../../environments/global.component';
@@ -41,23 +41,23 @@ export class createSegmentComponent implements OnInit {
     GRP_HABILITADO_REQ: boolean;
     GRP_AREA_NEGOCIO_REQ: boolean;
     loadingPage: boolean;
-    segmentoForm = new FormGroup({
-        GRP_CODIGO: new FormControl('', Validators.required),
-        GRP_ESQUEMA_VALIDO: new FormControl('', Validators.required),
-        GRP_PERIOCIDAD: new FormControl('', Validators.required),
-        GRP_NOMBRE: new FormControl('', Validators.required),
-        GRP_DESCRIPCION: new FormControl('', Validators.required),
-        GRP_HABILITADO: new FormControl('', Validators.required),
-        GRP_AREA_NEGOCIO: new FormControl('', Validators.required),
-        GRP_VIGENCIA_INICIO: new FormControl(''),
-        GRP_VIGENCIA_FIN: new FormControl(''),
+    segmentoForm = new UntypedFormGroup({
+        GRP_CODIGO: new UntypedFormControl('', Validators.required),
+        GRP_ESQUEMA_VALIDO: new UntypedFormControl('', Validators.required),
+        GRP_PERIOCIDAD: new UntypedFormControl('', Validators.required),
+        GRP_NOMBRE: new UntypedFormControl('', Validators.required),
+        GRP_DESCRIPCION: new UntypedFormControl('', Validators.required),
+        GRP_HABILITADO: new UntypedFormControl('', Validators.required),
+        GRP_AREA_NEGOCIO: new UntypedFormControl('', Validators.required),
+        GRP_VIGENCIA_INICIO: new UntypedFormControl(''),
+        GRP_VIGENCIA_FIN: new UntypedFormControl(''),
     });
 
 
 
     constructor(
         private notify: NotificationsComponent,
-        private formBuilder: FormBuilder,
+        private formBuilder: UntypedFormBuilder,
         private master: MaestrosService
     ) {
         this.loadingPage = false;

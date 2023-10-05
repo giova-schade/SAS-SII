@@ -5,7 +5,7 @@ import { LazyLoadEvent } from 'primeng/api';
 import { PrimeNGConfig } from 'primeng/api';
 import { Table } from "primeng/table";
 import { TableModule } from 'primeng/table';
-import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms';
+import { UntypedFormControl, Validators, UntypedFormGroup, FormBuilder } from '@angular/forms';
 import { ConfirmationService } from 'primeng/api';
 import { Message } from 'primeng/api';
 @Component({
@@ -32,16 +32,16 @@ export class viewSegmentComponent implements OnInit {
   columnas!: any;
   @ViewChild('segmentos') segmentos: any;
 
-  segmentoForm = new FormGroup({
-    GRP_CODIGO: new FormControl('', Validators.required),
-    GRP_ESQUEMA_VALIDO: new FormControl('', Validators.required),
-    GRP_PERIOCIDAD: new FormControl('', Validators.required),
-    GRP_NOMBRE: new FormControl('', Validators.required),
-    GRP_DESCRIPCION: new FormControl('', Validators.required),
-    GRP_HABILITADO: new FormControl('', Validators.required),
-    GRP_AREA_NEGOCIO: new FormControl('', Validators.required),
-    GRP_VIGENCIA_INICIO: new FormControl(''),
-    GRP_VIGENCIA_FIN: new FormControl(''),
+  segmentoForm = new UntypedFormGroup({
+    GRP_CODIGO: new UntypedFormControl('', Validators.required),
+    GRP_ESQUEMA_VALIDO: new UntypedFormControl('', Validators.required),
+    GRP_PERIOCIDAD: new UntypedFormControl('', Validators.required),
+    GRP_NOMBRE: new UntypedFormControl('', Validators.required),
+    GRP_DESCRIPCION: new UntypedFormControl('', Validators.required),
+    GRP_HABILITADO: new UntypedFormControl('', Validators.required),
+    GRP_AREA_NEGOCIO: new UntypedFormControl('', Validators.required),
+    GRP_VIGENCIA_INICIO: new UntypedFormControl(''),
+    GRP_VIGENCIA_FIN: new UntypedFormControl(''),
   });
   loading!: boolean;
   constructor(

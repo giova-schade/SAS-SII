@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from "@angular/core";
 import { NotificationsComponent } from './../../pages/notifications/notifications.component';
 import { MaestrosService } from '../../services/maestro.service';
-import { FormBuilder } from "@angular/forms";
+import { UntypedFormBuilder } from "@angular/forms";
 import { ActivatedRoute } from "@angular/router";
 import { Table } from "primeng/table";
 
@@ -21,7 +21,7 @@ export class runValidatorComponent implements OnInit {
   @ViewChild('Logs') Logs: any;
   constructor(
     private notify: NotificationsComponent,
-    private formBuilder: FormBuilder,
+    private formBuilder: UntypedFormBuilder,
     private master: MaestrosService,
     private route: ActivatedRoute
   ) {

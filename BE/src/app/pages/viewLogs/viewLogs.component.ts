@@ -5,7 +5,7 @@ import { MaestrosService } from '../../services/maestro.service';
 import { LazyLoadEvent } from 'primeng/api';
 import { PrimeNGConfig } from 'primeng/api';
 import { TableModule } from 'primeng/table';
-import { FormControl, Validators, FormGroup, FormBuilder } from '@angular/forms';
+import { UntypedFormControl, Validators, UntypedFormGroup, FormBuilder } from '@angular/forms';
 import { ConfirmationService } from 'primeng/api';
 import { Message } from 'primeng/api';
 interface Codigos {
@@ -34,11 +34,11 @@ export class viewLogsComponent implements OnInit {
   codigos!: Codigos[];
   loadingPage:boolean;
   @ViewChild('Logs') Logs: any;
-  logsForm = new FormGroup({
-    FECHALOGS_MIN: new FormControl(''),
-    FECHALOGS_MAX: new FormControl(''),
-    USUARIOLOGS: new FormControl(''),
-    GRP_CODIGO: new FormControl('')
+  logsForm = new UntypedFormGroup({
+    FECHALOGS_MIN: new UntypedFormControl(''),
+    FECHALOGS_MAX: new UntypedFormControl(''),
+    USUARIOLOGS: new UntypedFormControl(''),
+    GRP_CODIGO: new UntypedFormControl('')
   });
   constructor(
     private notify: NotificationsComponent,
