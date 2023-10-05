@@ -5,11 +5,11 @@
 
   <h4> SAS Macros </h4>
   @li mf_getuser.sas
-  @li mm_getgroups.sas
+  @li get_meta_groups.sas
 
 **/
 
-%mm_getgroups(user=%mf_getuser(),outds=work.groups)
+%get_meta_groups(_user=%mf_getuser(),outds=work.groups)
 
 %webout(OPEN)
 %webout(OBJ,groups)
