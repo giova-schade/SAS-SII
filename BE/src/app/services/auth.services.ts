@@ -60,6 +60,7 @@ export interface StartupData {
     areas: Area[]
     login: boolean
     MF_GETUSER: string
+    groups: any
 }
 
 @Injectable()
