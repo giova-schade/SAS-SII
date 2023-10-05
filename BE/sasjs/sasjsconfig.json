@@ -26,7 +26,7 @@
       "syncFolder": "sasjs/mocks",
       "serverUrl": "http://localhost:5000",
       "serverType": "SASJS",
-      "appLoc": "/Boleta/migracion",
+      "appLoc": "/Boleta/migracion/sas9",
       "streamConfig": {
         "streamLogo": "assets/img/logo.jpg",
         "streamServiceName": "Boleta_Electronica",
