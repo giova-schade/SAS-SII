@@ -32,6 +32,10 @@
         %MESSAGEBE("Debe ingresar un código de segmento ");
         %SalidaWeb(Tabla=RESULT);
     %END;
+    /* response comes from viewrecord */
+    %webout(OPEN)
+    %webout(obj,response)
+    %webout(CLOSE)
 
 %END;
 %ELSE %IF "&ACTION" EQ "UpdateRecord" %THEN %DO;
@@ -53,26 +57,17 @@
         %SalidaWeb(Tabla=RESULT);
     %END;
 
+    /* response comes from viewrecord */
+    %webout(OPEN)
+    %webout(obj,response)
+    %webout(CLOSE)
+
 %END;
 %ELSE %IF "&ACTION" EQ "UpdateCode" %THEN %DO;
     %UpdateCode;
     %MESSAGEBE("Codigos actualizados");
     %SalidaWeb(Tabla=RESULT);
 
-%END;
-%ELSE %IF "&ACTION" EQ "DeleteRecord" %THEN  %DO;
-    %IF %LENGTH(&GRP_CODIGO) NE 0 %THEN %DO;
-                %let mensaje = "El código &GRP_CODIGO ha sido eliminado";
-            %InsertEvent(GRP_CODIGO="&GRP_CODIGO",
-            LOG_EVENTO=&mensaje,
-            LOG_USUARIO="&_METAPERSON",
-            LOG_TIPO_EVENTO="005");
-             %DeleteRecord;
-    %END;
-    %ELSE %DO;
-        %MESSAGEBE("Debe ingresar un código de segmento ");
-        %SalidaWeb(Tabla=RESULT);
-    %END;
 %END;
 %ELSE %IF "&ACTION" EQ "ViewRecord" %THEN  %DO;
      %if %length(&GRP_CODIGO) ne 0 %then %do;
@@ -84,6 +79,9 @@
      %end;
 
     %ViewRecord(tabla=BE_GRUPO_CONTROL,reg=&GRP_CODIGO);
+    %webout(OPEN)
+    %webout(obj,response)
+    %webout(CLOSE)
 %END;
 %ELSE %IF "&ACTION" EQ "Start" %THEN  %DO;
     %include "/sasdatad/apps/be/nominas/deploy/valida_programa.sas";

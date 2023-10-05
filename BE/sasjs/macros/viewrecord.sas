@@ -64,12 +64,12 @@ RUN;
 proc sql noprint;
 select count (*) into :countresponse from response;
 quit;
-%if &countresponse eq 0 %then %do;
-    %MESSAGEBE("No hay segmentos creados");
-    %SalidaWeb(Tabla=RESULT);
-%end;
-%else %do;
-    %SalidaWeb(Tabla=response);
-%end;
+
+%mp_abort(iftrue= (&countresponse eq 0)
+  ,mac=&_program
+  ,msg=%str(No hay segmentos creados)
+)
+
+
 
 %mend ViewRecord;
