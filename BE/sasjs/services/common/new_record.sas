@@ -27,14 +27,14 @@
 data _null_;
   set work.from_ng;
   call symputx('GRP_CODIGO',GRP_CODIGO);
-    call symputx('GRP_DESCRIPCION',GRP_DESCRIPCION);
-    call symputx('GRP_NOMBRE',GRP_NOMBRE);
-    call symputx('GRP_AREA_NEGOCIO',GRP_AREA_NEGOCIO);
-    call symputx('GRP_ESQUEMA_VALIDO',GRP_ESQUEMA_VALIDO);
-    call symputx('GRP_HABILITADO',GRP_HABILITADO);
-    call symputx('GRP_PERIOCIDAD',GRP_PERIOCIDAD);
-    call symputx('GRP_VIGENCIA_FIN',GRP_VIGENCIA_FIN);
-    call symputx('GRP_VIGENCIA_INICIO',GRP_VIGENCIA_INICIO);
+  call symputx('GRP_DESCRIPCION',GRP_DESCRIPCION);
+  call symputx('GRP_NOMBRE',GRP_NOMBRE);
+  call symputx('GRP_AREA_NEGOCIO',GRP_AREA_NEGOCIO);
+  call symputx('GRP_ESQUEMA_VALIDO',GRP_ESQUEMA_VALIDO);
+  call symputx('GRP_HABILITADO',GRP_HABILITADO);
+  call symputx('GRP_PERIOCIDAD',GRP_PERIOCIDAD);
+  call symputx('GRP_VIGENCIA_FIN',GRP_VIGENCIA_FIN);
+  call symputx('GRP_VIGENCIA_INICIO',GRP_VIGENCIA_INICIO);
 run;
 
 /* abort if variable not found */
