@@ -54,7 +54,7 @@
   run;
 
   data _null_;
-    set users_list_temp;
+    set &outds;
     /*Se excluye los Roles y BD Potsgres*/
     if  group eq 'BEADM' then do;
       putlog '---------------->' group;
