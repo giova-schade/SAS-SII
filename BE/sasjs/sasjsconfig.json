@@ -19,6 +19,9 @@
     ],
     "initProgram": "sasjs/init.sas"
   },
+  "testConfig": {
+    "initProgram": "sasjs/testinit.sas"
+  },
   "defaultTarget": "sas9",
   "targets": [
     {
