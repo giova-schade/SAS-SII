@@ -4,41 +4,9 @@
   <h4> SAS Macros </h4>
 **/
 
-
-
-
-
-
-
 %macro main(GRP_CODIGO=);
 
-
-%if "&ACTION" EQ "NewRecord" %THEN %DO;
-    %IF %LENGTH(&GRP_CODIGO) NE 0 %THEN %DO;
-        proc sql noprint;
-        select count(*) into :CBE_GRUPO_CONTROL from BESASGC.BE_GRUPO_CONTROL where GRP_CODIGO="&GRP_CODIGO";
-        quit;
-        %if &CBE_GRUPO_CONTROL eq 0 %then %do;
-            %NewRecord;
-            %UpdateCode;
-        %end;
-        %else %do;
-            %MESSAGEBE("El código &GRP_CODIGO ya existe!");
-            %SalidaWeb(Tabla=RESULT);
-        %end;
-
-    %END;
-    %ELSE %DO;
-        %MESSAGEBE("Debe ingresar un código de segmento ");
-        %SalidaWeb(Tabla=RESULT);
-    %END;
-    /* response comes from viewrecord */
-    %webout(OPEN)
-    %webout(obj,response)
-    %webout(CLOSE)
-
-%END;
-%ELSE %IF "&ACTION" EQ "UpdateRecord" %THEN %DO;
+%IF "&ACTION" EQ "UpdateRecord" %THEN %DO;
     %IF %LENGTH(&GRP_CODIGO) NE 0 %THEN %DO;
         proc sql noprint;
         select count(*) into :CBE_GRUPO_CONTROL from BESASGC.BE_GRUPO_CONTROL where GRP_CODIGO="&GRP_CODIGO";
